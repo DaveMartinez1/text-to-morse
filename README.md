@@ -1,12 +1,15 @@
 # text-to-morse
 A program that converts text to Morse code
 
-1. Compiler
+> [!WARNING]
+> Only available on Windows, soon Linux
+
+1. Install PyGame
 ```
-gcc -o text-to-morse text-to-morse.cpp
+pip install pygame
 ```
 
 2. Execute
 ```
-./text-to-morse "<string>"
+python src/main.py "YOUR TEXT"
 ```
